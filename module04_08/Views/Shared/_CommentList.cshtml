@@ -1,4 +1,6 @@
-﻿@model IEnumerable<module04_08.Models.Comment>
+﻿@*建立一個partitial view
+IEnumerable標記這是一個會回傳多筆結果的model*@
+@model IEnumerable<module04_08.Models.Comment>
 
 <ul style="border:1px solid red">
     @foreach (var item in Model)
